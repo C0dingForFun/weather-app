@@ -29,14 +29,14 @@ export default function Home() {
     return <Spinner />
   } else {
     return (
-      <div className="h-screen p-8 ">
+      <div className="min-h-screen p-8 ">
   
           {/* Background Overlay */}
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[1]"></div>
 
           {/* Background image */}
             <Image 
-              src="/background.jpeg"
+              src="/Serene Seascape at Sunset.jpeg"
               alt="background img"
               layout="fill"
             />

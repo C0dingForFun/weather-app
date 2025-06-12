@@ -1,9 +1,11 @@
+'use client'
+
 import Image from 'next/image';
 
 export default function Weather({ data }) {
   const mile = 1.609;
   return (
-    <div className='relative flex flex-col justify-between max-w-[500px] w-full h-[90vh] m-auto p-4 text-gray-300 z-10'>
+    <div className='relative flex flex-col justify-between max-w-[500px] w-full m-auto p-4 text-gray-300 z-10 mb-10'>
       {/* Top */}
       <div className='relative flex justify-between pt-12'>
         <div className='flex flex-col items-center'>
@@ -19,7 +21,7 @@ export default function Weather({ data }) {
       </div>
 
       {/* Bottom */}
-    <div className='bg-black/50 relative p-8 rounded-md mb-2'>
+    <div className='bg-black/50 relative p-8 rounded-md mb-5 top-60'>
         <p className='text-2xl text-center pb-6'>Weather in {data.name}</p>
         <div className='flex justify-between text-center'>
             <div>
