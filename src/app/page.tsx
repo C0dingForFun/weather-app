@@ -59,7 +59,6 @@ export default function Home() {
               </button>
             </form>
           </div>
-          
           {/* Weather */}
           {weather.main && <Weather data={weather} />}
        </div> 
