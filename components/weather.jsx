@@ -21,7 +21,7 @@ export default function Weather({ data }) {
       </div>
 
       {/* Bottom */}
-    <div className='bg-black/50 relative p-8 rounded-md mb-5 top-60'>
+    <div className='bg-black/50 relative p-8 rounded-md mb-5 lg:top-50 top-30'>
         <p className='text-2xl text-center pb-6'>Weather in {data.name}</p>
         <div className='flex justify-between text-center'>
             <div>
